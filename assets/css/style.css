@@ -1,0 +1,132 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    background: url("../images/pattern-background-desktop.svg") no-repeat #e0e8ff;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.box {
+    background: #fff;
+    max-width: 100%;
+    margin: 100px auto;
+    border-radius: 30px;
+    max-width: 450px;
+    height: 697px;
+}
+
+.box .box-img img {
+    border-radius: 20px 20px 0px 0px;
+    max-width: 100%;
+}
+
+
+/* summary */
+
+.box .box-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box .box-text h1 {
+    color: hsl(223, 47%, 23%);
+}
+
+.box .box-text h2 {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: lighter;
+    max-width: 300px;
+}
+
+
+/* plan */
+
+.box .box-plan {
+    background: #f8f9fe;
+    max-width: 350px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.box .box-plan .box-plan-img {
+    margin-left: 20px;
+    max-width: 100%;
+}
+
+.box .box-plan .box-plan-desc {
+    flex: 2;
+    margin-left: 15px;
+}
+
+.box .box-plan .box-plan-desc .name {
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 5px;
+}
+
+.box .box-plan .box-plan-desc .price {
+    color: hsl(224, 30%, 65%);
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.box .box-plan .box-plan-change {
+    color: hsl(245, 75%, 52%);
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.box .box-decide {
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .box-decide .box-payment {
+    background-color: #766cf1;
+    border: none;
+    color: #fff;
+    max-width: 100%;
+    padding: 20px 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.box .box-decide .box-payment:hover {
+    box-shadow: 1px 15px 16px 1px hsl(225, 100%, 94%);
+}
+
+.box .box-decide .box-cancel {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+    text-decoration: none;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+}
